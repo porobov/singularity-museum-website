@@ -122,7 +122,6 @@
 
 .screw .text-wrapper-3 {
   position: relative;
-  align-self: stretch;
   font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
   color: #000000;
@@ -171,6 +170,7 @@
   display: flex;
   flex-direction: column;
   width: 73px;
+  min-width: 80px;
   height: 80.44px;
   align-items: center;
   gap: 9px;
@@ -281,7 +281,6 @@
 
 .screw .text-wrapper-7 {
   position: relative;
-  align-self: stretch;
   font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
   color: #000000;
@@ -612,9 +611,9 @@
 }
 
 .screw .satellites {
-  position: absolute;
+  position: fixed;
   width: 699px;
   height: 157px;
-  top: 1371px;
-  left: 407px;
+  top: 75%;
+  right: 50px;
 }
