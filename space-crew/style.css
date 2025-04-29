@@ -1,3 +1,8 @@
+a:link,
+a:visited {
+  color: black;
+}
+
 .screw {
   display: flex;
   flex-direction: column;
