@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="yes" name="mobile-web-app-capable">
+
+    <title class="title"></title>
+
+    <link rel="stylesheet" media="all" href="styles.css?v=11" />
+
+</head>
+
+
+<body>
+
+    <div class="jlist-header-img" style="background-image: url(https://assets.softr-files.com/applications/c4796cba-c726-44d8-b78d-3bed24502040/assets/61761a41-1ab8-492e-a41c-680e653d9eef.jpeg);">
+        <div class="jlist-header-img-inner">
+            <h2 class="title"></h2>
+            <p>Collection of <span class="total">-</span> NFTs.</p>
+        </div>
+    </div>
+
+    <div class="wrap"></div>
+
+<body>
+
+<script type="text/javascript" src="jlist.js?v=7"></script>
+
+<script>
+
+list = new JList({
+    el: ".wrap",
+    name: "Singularity museum catalog",
+    nameShort: "SM",
+    copyright: "&copy; {Y} singularitymuseum.com",
+    headerTitle: false,
+    limit: 12,
+    db: "./db.json",
+    imgPath: "",
+    fields: [
+        {"name": "Category", "field": "tags", "type": "tag", "hint": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+        {"name": "Skill levels", "field": "level", "type": "tag"},
+        {"name": "Artifacts", "field": "artifacts", "type": "tag"},
+        {"name": "Author", "field": "author", "type": "select"},
+    ],
+    menu: [
+        {name: "Back", url: "https://singularitymuseum.com"},
+        {name: "About", url: "https://singularitymuseum.com"}
+    ]
+});
+
+</script>
+</html>
