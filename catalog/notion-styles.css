@@ -21,6 +21,21 @@ body {
 
 body {
 	line-height: 1.5;
+	white-space: normal;
+}
+
+/* Content areas should preserve meaningful whitespace */
+pre, code, .code {
+	white-space: pre-wrap;
+}
+
+/* Regular text content should collapse whitespace */
+p, h1, h2, h3, h4, h5, h6, li, td, th {
+	white-space: normal;
+}
+
+/* Preserve whitespace in specific content types */
+.source, .callout {
 	white-space: pre-wrap;
 }
 
