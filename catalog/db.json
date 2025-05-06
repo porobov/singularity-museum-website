@@ -10,8 +10,8 @@
     "level": [
       "beginner"
     ],
-    "image": "border/Border.jpeg",
-    "permalink": "./border.html"
+    "image": "catalog/border/Border.jpeg",
+    "permalink": "./catalog/border.html"
   },
   {
     "ID": 2,
@@ -24,8 +24,8 @@
     "level": [
       "beginner"
     ],
-    "image": "cells/Cells.jpeg",
-    "permalink": "./cells.html"
+    "image": "catalog/cells/Cells.jpeg",
+    "permalink": "./catalog/cells.html"
   },
   {
     "ID": 3,
@@ -38,8 +38,8 @@
     "level": [
       "beginner"
     ],
-    "image": "interlinked/Interlinked.jpeg",
-    "permalink": "./interlinked.html"
+    "image": "catalog/interlinked/Interlinked.jpeg",
+    "permalink": "./catalog/interlinked.html"
   },
   {
     "ID": 4,
@@ -52,8 +52,8 @@
     "level": [
       "beginner"
     ],
-    "image": "key/Key.jpeg",
-    "permalink": "./key.html"
+    "image": "catalog/key/Key.jpeg",
+    "permalink": "./catalog/key.html"
   },
   {
     "ID": 5,
@@ -66,8 +66,8 @@
     "level": [
       "beginner"
     ],
-    "image": "light/Light.jpeg",
-    "permalink": "./light.html"
+    "image": "catalog/light/Light.jpeg",
+    "permalink": "./catalog/light.html"
   },
   {
     "ID": 6,
@@ -80,8 +80,8 @@
     "level": [
       "beginner"
     ],
-    "image": "nothingness/Nothingness.jpeg",
-    "permalink": "./nothingness.html"
+    "image": "catalog/nothingness/Nothingness.jpeg",
+    "permalink": "./catalog/nothingness.html"
   },
   {
     "ID": 7,
@@ -94,8 +94,8 @@
     "level": [
       "beginner"
     ],
-    "image": "red-paperclip/Red_paperclip.jpeg",
-    "permalink": "./red-paperclip.html"
+    "image": "catalog/red-paperclip/Red_paperclip.jpeg",
+    "permalink": "./catalog/red-paperclip.html"
   },
   {
     "ID": 8,
@@ -108,7 +108,7 @@
     "level": [
       "beginner"
     ],
-    "image": "spirit/Spirit.jpeg",
-    "permalink": "./spirit.html"
+    "image": "catalog/spirit/Spirit.jpeg",
+    "permalink": "./catalog/spirit.html"
   }
 ]
