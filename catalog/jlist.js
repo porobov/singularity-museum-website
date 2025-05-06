@@ -234,7 +234,8 @@ class JList {
 
                 let img = this.getImage(data),
                 link    = data.hasOwnProperty("permalink") ? data.permalink : "#",
-                target  = link == "#"  ? "" : 'target="_blank"';
+                // target  = link == "#"  ? "" : 'target="_blank"';
+                target  = ""; // Removed target="_blank"
 
                 console.log(link);
 
