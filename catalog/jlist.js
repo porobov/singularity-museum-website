@@ -244,11 +244,13 @@ class JList {
 
                 html = `<a href="${link}" ${target}>
                             <div><img src="`+img+`"/></div>
-                            <div><h4>${data.author}</h4></div>
                             <div><h2>${data.name}</h2></div>
-                            <div class="descr">${data.description}</div>
                         </a>`;
-
+                // html = `<a href="${link}" ${target}>
+                //             <div><img src="`+img+`"/></div>
+                //             <div><h4>${data.author}</h4></div>
+                //             <div><h2>${data.name}</h2></div>
+                //         </a>`;
                 break;
 
         
