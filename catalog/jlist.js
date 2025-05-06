@@ -158,7 +158,7 @@ class JList {
                 m = this.menu[m];
 
                 let li = document.createElement("li");
-                li.innerHTML = `<li><a href="${m.url}" target="_blank">${m.name}</a></li>`;
+                li.innerHTML = `<li><a href="${m.url}">${m.name}</a></li>`;
 
                 ul.appendChild(li);
 
@@ -235,7 +235,7 @@ class JList {
                 let img = this.getImage(data),
                 link    = data.hasOwnProperty("permalink") ? data.permalink : "#",
                 // target  = link == "#"  ? "" : 'target="_blank"';
-                target  = ""; // Removed target="_blank"
+                target  = ""; // Removed
 
                 console.log(link);
 
@@ -946,12 +946,12 @@ class JList {
 
         if (f.hasOwnProperty("link")) {
 
-            val = '<a href="'+val+'" target="_blank">' + (f.link ? f.link : val) + '</a>';
+            val = '<a href="'+val+'">' + (f.link ? f.link : val) + '</a>';
 
         } else {
 
             if (typeof val === "string") {
-                val = val.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
+                val = val.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1">$1</a>');
             }
 
         }
