@@ -9,27 +9,50 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: flex-start; /* Changed to flex-start to see top of image */
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
             min-height: 100vh;
-            background-color: white; /* Changed to white */
-            overflow-y: auto; /* Allows scrolling if content is taller than viewport */
+            background-color: white;
+            overflow-y: auto;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+            width: 100%;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
         }
         .image-container {
             text-align: center;
-            padding: 20px 0; /* Adds some padding at top and bottom */
+            padding: 20px 0;
         }
         .image-container a {
             display: inline-block;
         }
         .image-container img {
-            width: 80%; /* Set to 80% of container width */
-            height: auto; /* Maintain aspect ratio */
-            max-width: 1280px; /* Optional: prevents image from getting too large */
+            width: 80%;
+            height: auto;
+            max-width: 1280px;
         }
     </style>
 </head>
 <body>
+    <div class="nav-links">
+        <a href="./projects.html">Projects</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./catalog.html">Catalog</a>
+    </div>
     <div class="image-container">
         <a href="https://singularitymuseum.com/catalog">
             <img src="./img/singularity.png" width="1280" height="1695">
