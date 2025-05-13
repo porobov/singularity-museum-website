@@ -1,0 +1,27 @@
+/* Custom header styles */
+.custom-header-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-header {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Custom footer styles */
+.custom-footer {
+    text-align: center;
+}
+
+.custom-footer a {
+    color: #37352f;
+}
+
+.custom-footer a:hover {
+    text-decoration: underline;
+} 
