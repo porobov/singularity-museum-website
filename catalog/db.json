@@ -5,7 +5,7 @@
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -15,11 +15,25 @@
   },
   {
     "ID": 2,
+    "name": "BOT005",
+    "author": "Peter",
+    "description": "Test description",
+    "tags": [
+      "Artefact"
+    ],
+    "level": [
+      "beginner"
+    ],
+    "image": "catalog/bot005/Untitled.png",
+    "permalink": "./catalog/bot005.html"
+  },
+  {
+    "ID": 3,
     "name": "Cells",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -28,12 +42,26 @@
     "permalink": "./catalog/cells.html"
   },
   {
-    "ID": 3,
+    "ID": 4,
+    "name": "Data as venus, as martyr",
+    "author": "Peter",
+    "description": "Test description",
+    "tags": [
+      "Art"
+    ],
+    "level": [
+      "beginner"
+    ],
+    "image": "catalog/data-as-venus,-as-martyr/data-full-hd.jpg",
+    "permalink": "./catalog/data-as-venus,-as-martyr.html"
+  },
+  {
+    "ID": 5,
     "name": "Interlinked",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -42,12 +70,12 @@
     "permalink": "./catalog/interlinked.html"
   },
   {
-    "ID": 4,
+    "ID": 6,
     "name": "Key",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -56,12 +84,12 @@
     "permalink": "./catalog/key.html"
   },
   {
-    "ID": 5,
+    "ID": 7,
     "name": "Light",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -70,12 +98,12 @@
     "permalink": "./catalog/light.html"
   },
   {
-    "ID": 6,
+    "ID": 8,
     "name": "Nothingness",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -84,12 +112,12 @@
     "permalink": "./catalog/nothingness.html"
   },
   {
-    "ID": 7,
+    "ID": 9,
     "name": "Red paperclip",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
@@ -98,17 +126,45 @@
     "permalink": "./catalog/red-paperclip.html"
   },
   {
-    "ID": 8,
+    "ID": 10,
+    "name": "Replicant - Vulnerable",
+    "author": "Peter",
+    "description": "Test description",
+    "tags": [
+      "Art"
+    ],
+    "level": [
+      "beginner"
+    ],
+    "image": "catalog/replicant---vulnerable/Fragile-fullHD.jpg",
+    "permalink": "./catalog/replicant---vulnerable.html"
+  },
+  {
+    "ID": 11,
     "name": "Spirit",
     "author": "Peter",
     "description": "Test description",
     "tags": [
-      "Accepted (As seen by innocent robots)"
+      "Accepted"
     ],
     "level": [
       "beginner"
     ],
     "image": "catalog/spirit/Spirit.jpeg",
     "permalink": "./catalog/spirit.html"
+  },
+  {
+    "ID": 12,
+    "name": "Terminator - Innocence NFT",
+    "author": "Peter",
+    "description": "Test description",
+    "tags": [
+      "Art"
+    ],
+    "level": [
+      "beginner"
+    ],
+    "image": "catalog/terminator---innocence-nft/innocent-full-hd-2.jpg",
+    "permalink": "./catalog/terminator---innocence-nft.html"
   }
 ]
